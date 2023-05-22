@@ -1,0 +1,43 @@
+.todo {
+    width: 300px; /* Establece el ancho deseado */
+    margin: 0 auto; /* Centra horizontalmente el div */
+    text-align: center; /* Centra el contenido dentro del div */
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.titulo .izquierda {
+    display: flex;
+    align-items: center;
+}
+  
+.titulo .fa-ellipsis-vertical {
+    margin-left: auto;
+}
+
+.parte.abajo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.icono.izquierda {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+.icono.derecha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.negrita {
+    font-weight: bold;
+}
+  
